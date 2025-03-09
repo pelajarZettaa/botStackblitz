@@ -11,7 +11,7 @@ if (!token) throw new Error("TELEGRAM_BOT_TOKEN is not defined in .env file");
 
 const bot = new TelegramBot(token, { polling: true });
 
-const apiUrl = "https://restiapimail.onrender.com/api"; // API Mail.tm
+const apiUrl = "https://restiapimail-i04z.onrender.com/api"; // API Mail.tm
 const fakerApiUrl =
   "https://fakerapi.it/api/v1/custom?_quantity=1&_locale=en_US&first=firstName&last=lastName";
 const stackBlitzRegisterUrl = "https://stackblitz.com/api/users/registrations";
